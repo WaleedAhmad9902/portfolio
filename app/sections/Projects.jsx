@@ -31,15 +31,16 @@ const Projects = () => {
               data-aos-duration="1000"
               data-aos-delay={ind * 200} // Dynamic delay for each project
             >
-              <div className="relative w-full h-[300px]"> {/* Container with fixed height */}
-                <Image
-                  src={proj.image}
-                  alt="projectImg"
-                  layout="fill"  // This will make the image cover the container
-                  objectFit="cover"  // Ensures the image maintains aspect ratio
-                  className="rounded-xl"
-                />
-              </div>
+             <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+  <Image
+    src={proj.image}
+    alt="projectImg"
+    layout="fill"  // Fills the entire container
+    objectFit="cover"  // Ensures the image maintains aspect ratio
+    className="rounded-xl"
+  />
+</div>
+
               <h2 className="font-sans font-bold text-2xl mt-4">{proj.title}</h2>
             </div>
           ))}
