@@ -1,0 +1,42 @@
+[
+    {
+    
+      "image": "/images/skill1.png",
+       "name": "HTML"
+    },
+    {
+    
+      "image": "/images/skill2.png",
+      "name": "CSS"
+
+    },
+    {
+      "image": "/images/skill3.png",
+      "name": "JAVA SCRIPT"
+
+    },
+    {
+      "image": "/images/skill4.png",
+      "name": "TAILWIND CSS"
+
+    },
+    {
+      "image": "/images/skill5.png",
+      "name": "REACT JS"
+
+    },
+    {
+      "image": "/images/skill6.png",
+      "name": "NEXT JS"
+
+    }
+  ]
+
+  
+  
+  
+
+
+ 
+  
+
