@@ -20,13 +20,13 @@ const Hero = () => {
         </div>
         <br />
         <div className="text-center mt-2">
-          <h3 className="opacity-60 font-palanquin text-lg sm:text-xl md:text-2xl">
+          <h3 className="opacity-60 font-palanquin text-lg sm:text-xl md:text-2xl text-white">
             <b>Welcome To My Portfolio!</b>
           </h3>
-          <h1 className="text-3xl sm:text-4xl font-bold">Hi, I'm Waleed Ahmad</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-50">Hi, I'm Waleed Ahmad</h1>
           <h2 className="text-[#F9004D] text-2xl sm:text-3xl font-bold pt-2">MERN Stack Developer</h2>
           <br />
-          <p className="text-base sm:text-lg md:text-xl mt-4 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl mt-4 max-w-2xl mx-auto text-white">
             MERN Stack Developer | Next.js. I'm always learning and creating new
             projects. Check out my work to see what I’ve been building!
           </p>
@@ -45,7 +45,13 @@ const Hero = () => {
           <br />
           <div>
             <a href="/">
-              <button className="bg-[#F9004D] hover:bg-black text-white relative w-40 h-12 rounded-md mt-6 sm:w-48 lg:w-56">
+              <button className="bg-[#F9004D] text-white relative w-40 h-12 rounded-md mt-6 sm:w-48 lg:w-56 
+                  hover:bg-white hover:text-[#F9004D] hover:shadow-lg 
+                  transition-all duration-300 ease-in-out 
+                  border-2 border-[#F9004D] hover:border-white 
+                  focus:outline-none focus:ring-4 focus:ring-[#F9004D] focus:ring-opacity-50
+                  active:scale-95">
+
                 <b>
                   Contact Me <ChevronRight className="inline" />
                 </b>

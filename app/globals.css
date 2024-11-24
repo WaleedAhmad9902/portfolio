@@ -13,6 +13,24 @@
     --foreground: #ededed;
   }
 }
+/* styles/globals.css */
+
+/* Keyframes for the light streak animation */
+@keyframes lightTrail {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(100vw) translateY(100vh) scale(2); /* Streaks across the screen */
+    opacity: 0; /* Fade out over time for the streak effect */
+  }
+}
+
+.animate-lightTrail {
+  animation: lightTrail infinite linear;
+}
+
 
 body {
   color: var(--foreground);

@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <>
       <section className="h-auto w-full pb-28">
-        <h1 className="text-4xl font-sans font-bold mt-12 text-center" id="projects">
+        <h1 className="text-4xl font-sans font-bold mt-12 text-center text-white" id="projects">
           My All Projects
         </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-12 mx-10">
@@ -41,7 +41,7 @@ const Projects = () => {
   />
 </div>
 
-              <h2 className="font-sans font-bold text-2xl mt-4">{proj.title}</h2>
+              <h2 className="font-sans font-bold text-2xl mt-4 text-white">{proj.title}</h2>
             </div>
           ))}
         </div>
